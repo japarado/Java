@@ -1,6 +1,8 @@
 package GUI;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
 
 public class SimpleAnimation
 {
@@ -14,9 +16,38 @@ public class SimpleAnimation
     }
     public void go()
     {
-        JFrame frame = new JFrame();
+        JFrame frame = new JFrame("Simple Animation");
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         MyDrawPanel drawPanel = new MyDrawPanel();
+
+        frame.getContentPane().add(drawPanel);
+        frame.setSize(300,300);
+        frame.setVisible(true);
+
+        for(int i=0;i<130;i++)
+        {
+            x++;
+            y++;
+            drawPanel.repaint();
+            try
+            {
+                Thread.sleep(50);
+            }
+            catch(Exception ex)
+            {
+
+            }
+        }
+    }
+    class MyDrawPanel extends JPanel
+    {
+        public void paintComponent (Graphics g)
+        {
+            g.setColor(Color.WHITE);
+            g.fillRect(0, 0, this.getWidth(), this.getHeight());
+            g.setColor(Color.GREEN);
+            g.fillOval(x, y, 40, 40);
+        }
     }
 }
