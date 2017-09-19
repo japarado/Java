@@ -1,0 +1,10 @@
+1. Decimal                  - ("%d",42);
+2. Floating Point           - ("%.3f",42.00000)
+3. Hexadecimal              - ("%x",42)
+4. Character                - ("%c",42)
+5. Complete Date and Time   - ("%tc", new Date())
+6. Just the Time            - ("%tr", new Date())
+7-9. Week, month, and day:  -Date today = new Date();
+                            String.format("%tA,%tB,%tD",today,today,today);
+                            OR
+                            -String.format("%tA, %<tB %<tD",today)

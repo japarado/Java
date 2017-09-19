@@ -1,0 +1,21 @@
+FORMAT SPECIFIER
+    - can have up to 5 different parts(excluding the %)
+%[argument number][flags][width][.precision]type
+
+1. Argument Number
+2. Flags
+    -these are for special formatting options like inserting commas,
+    or putting negative numbers in parentheses, or to make
+    the numbers left justified
+3. Width
+    -this defines the minimum characters that will be used.
+    That's minimum, not total. If the number is longer than
+    the width, it'll still be used in fill, but if it's
+    less than the width, it'll be padded with zeros
+4. Precision
+    -defines the number of numbers after the decimal point
+5. Type
+    -mandatory
+
+Sample Format:
+format("%,6.1f",42.000);
