@@ -29,8 +29,7 @@ public class Calculator
     JButton equals;
     JButton clear;
 
-    JButton button;
-
+    public JButton button;
 
     public static void main(String args[])
     {
@@ -75,12 +74,9 @@ public class Calculator
 
         for(int x = 0;x<buttonArr.length;x++)
         {
+            buttonArr[x].addActionListener(new ButtonListener());
             centerPanel.add(buttonArr[x]);
         }
-
-        for(button : buttonArr)
-
-
 
 
         //text area(comp area)
@@ -109,27 +105,31 @@ public class Calculator
     {
         public void actionPerformed(ActionEvent event)
         {
+            JButton button =(JButton) event.getSource();
             String txt = button.getText();
+            System.out.println(txt);
             switch (txt)
             {
+                case "0":
+                    compArea.append("0");
                 case "1":
                     compArea.append("1");
                 case "2":
-                    compArea.append("1");
+                    compArea.append("2");
                 case "3":
-                    compArea.append("1");
+                    compArea.append("3");
                 case "4":
-                    compArea.append("1");
+                    compArea.append("4");
                 case "5":
-                    compArea.append("1");
+                    compArea.append("5");
                 case "6":
-                    compArea.append("1");
+                    compArea.append("6");
                 case "7":
-                    compArea.append("1");
+                    compArea.append("7");
                 case "8":
-                    compArea.append("1");
+                    compArea.append("8");
                 case "9":
-                    compArea.append("1");
+                    compArea.append("9");
                 case "*":
                     compArea.append("*");
                 case "/":
