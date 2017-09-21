@@ -1,4 +1,4 @@
-package Swing;
+package Experimental_GUIs;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,8 +8,8 @@ import java.awt.event.ActionListener;
 public class SignupForm
 {
     JTextField usernameTf;
-    JTextField passwordTf;
-    JTextField passwordConfTf;
+    JPasswordField passwordTf;
+    JPasswordField passwordConfTf;
     JTextField emailTf;
     public static void main(String[] args)
     {
@@ -48,10 +48,10 @@ public class SignupForm
         clearBtn.addActionListener(new ClearBtnListener());
 
         //Initialize text fields
-        usernameTf = new JTextField();
-        passwordTf = new JTextField();
-        passwordConfTf = new JTextField();
-        emailTf = new JTextField();
+        usernameTf = new JPasswordField(10);
+        passwordTf = new JPasswordField(10);
+        passwordConfTf = new JPasswordField(10);
+        emailTf = new JTextField(10);
 
         //add the text fields and labels to their appropriate panels
         usernamePnl.add(usernameLbl);
@@ -66,6 +66,9 @@ public class SignupForm
         passwordConfPnl.add(passwordConfLbl);
         passwordConfPnl.add(passwordConfTf);
 
+        buttonsPnl.add(submitBtn);
+        buttonsPnl.add(clearBtn);
+
 
         //add a layout manager to the JPanel mainPanel
         mainPanel.setLayout(new BoxLayout(mainPanel,BoxLayout.Y_AXIS));
@@ -73,6 +76,7 @@ public class SignupForm
         mainPanel.add(emailPnl);
         mainPanel.add(passwordPnl);
         mainPanel.add(passwordConfPnl);
+        mainPanel.add(buttonsPnl);
 
 
         frame.getContentPane().add(BorderLayout.CENTER,mainPanel);
@@ -84,14 +88,25 @@ public class SignupForm
     {
         public void actionPerformed(ActionEvent event)
         {
+            String username = usernameTf.getText();
+            String email = emailTf.getText();
+            String password = passwordTf.getText();
+            String passwordConf = passwordConfTf.getText();
 
+            System.out.println("Username: " + username + "\n" +
+                    "Email: " + email + "\n" +
+                    "Password: " + password + "\n" +
+                    "Confirm Password: " + passwordConf);
         }
     }
     class ClearBtnListener implements ActionListener
     {
         public void actionPerformed(ActionEvent event)
         {
-
+            usernameTf.setText("");
+            emailTf.setText("");
+            passwordTf.setText("");
+            passwordConfTf.setText("");
         }
     }
 }
