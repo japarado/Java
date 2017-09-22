@@ -22,6 +22,7 @@ public class TextArea1
         JButton button = new JButton("Just Click it");
         button.addActionListener(new textAreaListener());
         text = new JTextArea(10,20);
+        //text.setEditable(false);
         text.setLineWrap(true);
 
         JScrollPane scroller = new JScrollPane(text);
