@@ -4,6 +4,7 @@ import java.io.*;
 
 public class GameSaverTest
 {
+
     public static void main(String[] args)
     {
         GameCharacter one = new GameCharacter(50,"Elf",new String[] {"bow","sword","dust"});
