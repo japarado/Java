@@ -3,6 +3,7 @@ package Calculator;
 import javax.swing.*;
 import java.awt.*;
 import java.util.HashMap;
+import java.util.Set;
 
 /**
  * Created by student on 9/25/2017.
@@ -62,8 +63,32 @@ public class Calculator
 
         JPanel centerPanel = new JPanel();
         //centerPanel components
-        HashMap<JButton,String> buttonStringHashMap = new HashMap<JButton,String>();
+        HashMap<JButton,String> buttonStringHashMap = new HashMap<>();
+        buttonStringHashMap.put(one,"one");
+        buttonStringHashMap.put(two,"two");
+        buttonStringHashMap.put(three,"three");
+        buttonStringHashMap.put(four,"four");
+        buttonStringHashMap.put(five,"five");
+        buttonStringHashMap.put(six,"six");
+        buttonStringHashMap.put(seven,"seven");
+        buttonStringHashMap.put(eight,"eight");
+        buttonStringHashMap.put(nine,"nine");
+        buttonStringHashMap.put(multiply,"*");
+        buttonStringHashMap.put(divide,"/");
+        buttonStringHashMap.put(add,"+");
+        buttonStringHashMap.put(subtract,"-");
+        buttonStringHashMap.put(equals,"=");
+        buttonStringHashMap.put(add,"+");
 
+        System.out.println(buttonStringHashMap.get(subtract));
+        /*for(JButton singleButton : buttonKeySet)
+        {
+            System.out.println(buttonStringHashMap.get(singleButton));
+        }*/
+
+        frame.getContentPane().add(BorderLayout.NORTH,topPanel);
+        frame.getContentPane().add(BorderLayout.CENTER,centerPanel);
+        frame.setVisible(true);
 
 
     }
