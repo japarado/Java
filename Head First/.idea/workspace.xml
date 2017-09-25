@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9a7e57ae-d71a-4f6a-9728-89069d1b7cc0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Calculator/Calculator.java" afterPath="$PROJECT_DIR$/src/Calculator/Calculator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -887,11 +886,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506374436846</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Calculator (button hashmap)">
+      <created>1506375869382</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1506375869382</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78632000" />
+    <option name="totallyTimeSpent" value="78689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -991,7 +997,8 @@
     <MESSAGE value="GameSaverText and GameCharacter Classes" />
     <MESSAGE value="Prototype File Writer" />
     <MESSAGE value="Calculator (incomplete - only until button hashmap)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator (incomplete - only until button hashmap)" />
+    <MESSAGE value="Calculator (button hashmap)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator (button hashmap)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
