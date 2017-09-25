@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.HashMap;
 import java.util.Set;
+import static Calculator.CalculatorButtons.setButtonTextMap;
 
 /**
  * Created by student on 9/25/2017.
@@ -28,6 +29,7 @@ public class Calculator
     JButton add;
     JButton clear;
     JButton equals;
+
     public static void main(String[] args)
     {
         Calculator calculator  = new Calculator();
@@ -64,26 +66,18 @@ public class Calculator
         JPanel centerPanel = new JPanel();
         //centerPanel components
         HashMap<JButton,String> buttonStringHashMap = new HashMap<>();
-        buttonStringHashMap.put(one,"one");
-        buttonStringHashMap.put(two,"two");
-        buttonStringHashMap.put(three,"three");
-        buttonStringHashMap.put(four,"four");
-        buttonStringHashMap.put(five,"five");
-        buttonStringHashMap.put(six,"six");
-        buttonStringHashMap.put(seven,"seven");
-        buttonStringHashMap.put(eight,"eight");
-        buttonStringHashMap.put(nine,"nine");
-        buttonStringHashMap.put(multiply,"*");
-        buttonStringHashMap.put(divide,"/");
-        buttonStringHashMap.put(add,"+");
-        buttonStringHashMap.put(subtract,"-");
-        buttonStringHashMap.put(equals,"=");
-        buttonStringHashMap.put(add,"+");
-
-        System.out.println(buttonStringHashMap.get(subtract));
-        /*for(JButton singleButton : buttonKeySet)
+        JButton[] buttonArr = {one,two,three,four,five,six,seven,eight,nine,multiply,divide,add,subtract,equals,clear};
+        for(int ctr=0;ctr<buttonArr.length;ctr++)
         {
-            System.out.println(buttonStringHashMap.get(singleButton));
+            buttonArr[ctr] = new JButton();
+        }
+
+
+        /*System.out.println(buttonStringHashMap.size());
+        Set<JButton> buttonKeys = buttonStringHashMap.keySet();
+        for(JButton singleButton : buttonKeys)
+        {
+            System.out.println(singleButton.getClass());
         }*/
 
         frame.getContentPane().add(BorderLayout.NORTH,topPanel);
