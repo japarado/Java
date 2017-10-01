@@ -1,3 +1,4 @@
+/*
 package BeatBox;
 
 import javax.swing.*;
@@ -38,3 +39,4 @@ public class MyReadInListener implements ActionListener
         buildTrackAndStart();
     }
 }
+*/
