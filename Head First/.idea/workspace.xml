@@ -1,31 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a7e57ae-d71a-4f6a-9728-89069d1b7cc0" name="Default" comment="Chat Client">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BeatBox/BeatBoxFinal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BeatBox/MusicServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chat/SimpleChatClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chat/SimpleChatServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DataStructures/Jukebox1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DataStructures/Jukebox3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DataStructures/Song.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DataStructures/exercise/SortMountains.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Threads/MyRunnable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Threads/RyanAndMonicaJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Threads/TwoThreads.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Threads/UsingSleepRunnable.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BeatBox/MyReadInListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BeatBox/MySendListener.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Head First/BeatBox/BeatBox$MyDownTempoListener.class" afterPath="$PROJECT_DIR$/out/production/Head First/BeatBox/BeatBox$MyDownTempoListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Head First/BeatBox/BeatBox$MyStartListener.class" afterPath="$PROJECT_DIR$/out/production/Head First/BeatBox/BeatBox$MyStartListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Head First/BeatBox/BeatBox$MyStopListener.class" afterPath="$PROJECT_DIR$/out/production/Head First/BeatBox/BeatBox$MyStopListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Head First/BeatBox/BeatBox$MyUpTempoListener.class" afterPath="$PROJECT_DIR$/out/production/Head First/BeatBox/BeatBox$MyUpTempoListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Head First/BeatBox/BeatBox.class" afterPath="$PROJECT_DIR$/out/production/Head First/BeatBox/BeatBox.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+    <list default="true" id="9a7e57ae-d71a-4f6a-9728-89069d1b7cc0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DataStructures/Jukebox6.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BeatBox/BeatBox.java" afterPath="$PROJECT_DIR$/src/BeatBox/BeatBox.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,28 +70,21 @@
       <file leaf-file-name="Jukebox3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataStructures/Jukebox3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="170">
+              <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortMountains.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataStructures/exercise/SortMountains.java">
+      <file leaf-file-name="Jukebox6.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DataStructures/Jukebox6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#197#207#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CheckBox.java" />
         <option value="$PROJECT_DIR$/src/Swing/CheckBox.java" />
         <option value="$PROJECT_DIR$/src/Swing/List.java" />
         <option value="$PROJECT_DIR$/src/Serializing/Box.java" />
@@ -205,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/DataStructures/Song.java" />
         <option value="$PROJECT_DIR$/src/DataStructures/Jukebox3.java" />
         <option value="$PROJECT_DIR$/src/DataStructures/exercise/SortMountains.java" />
+        <option value="$PROJECT_DIR$/src/DataStructures/Jukebox6.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -238,9 +210,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,16 +221,10 @@
               <item name="Head First" type="b2602c69:ProjectViewProjectNode" />
               <item name="Head First" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Head First" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Head First" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortMountains">
+  <component name="RunManager" selected="Application.Jukebox3">
     <configuration name="BeatBoxFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -776,8 +743,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SortMountains" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Jukebox3" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Jukebox3" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SortMountains" />
         <item index="2" class="java.lang.String" itemvalue="Application.Jukebox1" />
         <item index="3" class="java.lang.String" itemvalue="Application.Main" />
         <item index="4" class="java.lang.String" itemvalue="Application.BeatBoxFinal" />
@@ -843,7 +810,8 @@
       <workItem from="1509369167101" duration="2064000" />
       <workItem from="1509494502250" duration="698000" />
       <workItem from="1509497692354" duration="4882000" />
-      <workItem from="1509502809285" duration="713000" />
+      <workItem from="1509502809285" duration="1046000" />
+      <workItem from="1509504132247" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="Simple Animation">
       <created>1505784662677</created>
@@ -922,14 +890,22 @@
       <option name="project" value="LOCAL" />
       <updated>1506832439091</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Ignored .idea folder">
+      <created>1509503552873</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1509503552873</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114540000" />
+    <option name="totallyTimeSpent" value="114930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -939,19 +915,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25382933" sideWeight="0.5044444" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25382933" sideWeight="0.49555555" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3236559" sideWeight="0.49555555" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25382933" sideWeight="0.49555555" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28111112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28777778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1008,7 +984,8 @@
     <MESSAGE value="Calculator (incomplete - only until button hashmap)" />
     <MESSAGE value="Calculator (button hashmap)" />
     <MESSAGE value="Chat Client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chat Client" />
+    <MESSAGE value="Ignored .idea folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ignored .idea folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1056,14 +1033,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructures/Jukebox3.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructures/Jukebox6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructures/Jukebox1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructures/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructures/Jukebox3.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1072,10 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#197#207#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,28 +1146,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructures/Jukebox3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructures/exercise/SortMountains.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructures/Jukebox3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#197#207#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructures/Jukebox6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
