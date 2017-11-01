@@ -32,7 +32,6 @@ public class BeatBox
         /*BeatBox box = new BeatBox();
         box.buildGUI();*/
     }
-
     public void buildGUI()
     {
         theFrame = new JFrame("Cyber BeatBox");
